@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # 1. Load the saved artifacts
-model = joblib.load('/Users/macbook/Downloads/churn_model.pkl')
-preprocessor = joblib.load('/Users/macbook/Downloads/preprocessor.pkl')
+model = joblib.load('churn_model.pkl')
+preprocessor = joblib.load('preprocessor.pkl')
 
 st.title("📞 Telco Customer Churn Predictor")
 st.write("Enter customer details below to see the likelihood of them leaving.")
